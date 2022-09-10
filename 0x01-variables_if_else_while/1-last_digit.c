@@ -10,7 +10,10 @@
 int main(void)
 {
 	int n;
+<<<<<<< HEAD
 	char last[] = "last digit of";
+=======
+>>>>>>> 5d928ba8163e1a20c9f47fdf85fc277d8f8880ea
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
