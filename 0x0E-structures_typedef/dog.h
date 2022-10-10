@@ -3,9 +3,9 @@
 /*Structs*/
 /**
  * struct dog - contains data for dog
- * @name: char *
- * @age: float
- * @owner: char *
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog owner
  *
  */
 struct dog

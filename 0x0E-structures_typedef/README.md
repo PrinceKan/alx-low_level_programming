@@ -1,6 +1,7 @@
 This is a readme file for the project task 0x0E. C - Structures, typedef
 
 0 - Define a new type struct dog with the following elements:
+	
 		name, type = char *
 		age, type = float
 		owner, type = char *
