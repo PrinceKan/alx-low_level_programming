@@ -1,0 +1,6 @@
+# -*-  MakeFile The all rule builds your executable named school -*-
+
+school: main.c school.c
+	gcc -o school main.c school.c
+
+all: school
