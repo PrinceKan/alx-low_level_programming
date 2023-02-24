@@ -1,0 +1,9 @@
+# -*- MakeFile the all rule builds the executable named school SRC & CC are variables -*-
+
+CC = gcc
+SRC = main.c school.c
+
+school: $(SRC)
+	$(CC) -o school $(SRC)
+
+all: school
