@@ -13,7 +13,7 @@ def island_perimeter(grid):
             if grid[y][x] == 1:
                 poid_grid += 4
                 if x > 0 and grid[y][x - 1]:
-                    poid_grid  -= 2
+                    poid_grid -= 2
                 if y > 0 and grid[y - 1][x]:
                     poid_grid -= 2
     return poid_grid
