@@ -1,14 +1,11 @@
 # -*-  -*- MakeFile the all rule builds the executable named school SRC & CC are variables-*-
 
-CC=gcc
-SRC= main.c school.c
-OBJ= $(SRC:%.c=%.o)
-NAME= school 
-RM=rm -f
-CFLAGS=-Wall -Werror -Wextra -pedantic
-
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:%.c=%.o)
+NAME = school 
+RM = rm -f
+CFLAGS =-Wall -Werror -Wextra -pedantic
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
